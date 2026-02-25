@@ -17,5 +17,5 @@
         I’ve previously worked on projects at Caltech, MIT, and JPL exploring 
         human factors and autonomy in aviation and space exploration.</p>
     <img
-    src="/images/image_me.jpeg"
+    src="../../static/images/image_me.jpeg"
     alt = "Isa de Luis with statue of Charles Darwin"/>
