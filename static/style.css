@@ -1,0 +1,121 @@
+:root {
+  --color-accent: oklch(65% 50% 0);
+}
+nav {
+  margin-bottom: 0.15em;
+  border-bottom-width: .1em;
+  border-bottom-style: solid;
+  border-bottom-color: oklch(80% 3% 200);
+  
+  ul {
+    display: contents;
+    display: flex;
+  }
+
+  li {
+    display: contents;
+  }
+
+  a {
+    flex : 1;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    
+    padding: 0.1em;
+  }
+
+  a.current{
+    border-bottom-width: 0.4em;
+    border-bottom-style: solid;
+    margin-bottom: -1.25em;
+    border-bottom-color: oklch(80% 3% 200);
+  }
+
+  a:hover {
+    border-bottom-width: 0.4em;
+    border-bottom-style: solid;
+    padding-bottom: 0em;
+    margin-bottom: -1.25em;
+    border-bottom-color: var(--color-accent);
+    background-color: oklch(from var(--color-accent) 80% 30% h);
+  }
+}  
+
+body {
+ /* Set line height to 1.5 times the font size
+    and use the OS’s UI font as the website font
+  */
+  accent-color: var(--color-accent);
+  font: 100%/1.5 system-ui;
+  max-width: 100ch;
+  margin-inline: auto;
+  padding: 5ch;
+
+  input {
+    font:inherit;
+  }
+
+  form {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 1em;
+
+    textarea {
+      font: inherit;
+    }
+
+    button {
+      font: inherit;
+      grid-column: 1/-1
+    }
+
+    label {
+      display: grid;
+      grid-template-columns: subgrid;
+      grid-column: 1/-1
+    }
+  }
+
+  div.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+    gap: 1em;
+
+    article {
+      display: grid;
+      grid-template-rows: subgrid;
+      grid-row: span 3;
+
+      h2 {
+        margin: 0;
+      }
+    }
+  }
+
+  h1 {
+    font-size: 400%;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    line-height: 1.1;
+    text-wrap: balance;
+  }
+
+  h2.cv {
+    text-align: left;
+    background-color: oklch(from var(--color-accent) 80% 30% h);
+    padding: 8px;
+  }
+
+  h3.cv {
+    text-align: left;
+    background-color: oklch(81.531% 0.13059 320.864 / 0.559);
+    padding: 8px;
+  }
+
+  img {
+    width: 100%;
+  }
+  
+}
