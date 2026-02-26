@@ -1,9 +1,9 @@
     <nav class = "menu">
     <ul>
-        <li> <a href = "..">Home</a></li>
+        <li> <a href = "../">Home</a></li>
         <li> <a href = "../projects">Projects</a></li>
         <li> <a href = "../contact">Contact</a></li>
-        <li> <a href = "." class = "current"> CV </a></li>
+        <li> <a href = "../resume" class = "current"> CV </a></li>
         <li> <a href = "https://github.com/isa-deluis42" target="_blank">Github</a></li>
     </ul>
 </nav>

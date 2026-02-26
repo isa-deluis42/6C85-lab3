@@ -1,0 +1,22 @@
+[
+    {
+    "title": "R-Based NMF Pipeline for Air Quality Data",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "I developed a pipeline document in R Studio to perform Non-Negative Matrix Factorization (NMF) on cleaned air quality data from Air Partner’s air quality sensors around Boston. The pipeline included documentation on how the NMF analysis was performed and included the ability to automatically create spatial maps of pollutants around the sensor based on the results of the NMF analysis."
+  },
+  {
+    "title": "Aircraft Accident Predictor",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "I built a Multi-Layer Perceptron (MLP) model to predict the primary cause of aviation accidents, aiming to give investigators an initial analytical starting point. Using NTSB accident data, I cleaned, encoded, and balanced the dataset with class weighting and SMOTE. The model reached about 50% accuracy with stable training and test performance, demonstrating both the potential and challenges of applying machine learning to real-world aviation data."
+  },
+  {
+    "title": "Air Quality Analysis in Galena Park",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "Galena Park, a community near the Port of Houston, faces poor air quality from surrounding industrial activity. The Environmental Community Advocates of Galena Park (ECAGP) partnered with Air Partners, a team of Olin College students, to analyze data from their air quality sensor network. I developed a data-cleaning pipeline and analyzed over six months of sensor data, finding that PM2.5 concentrations consistently ranged between 12–29 µg/m³, well above the EPA’s 9 µg/m³ exposure limit, and peaked during daytime industrial operations."
+  },
+  {
+    "title": "Simulating Low-Cost Landers on Mars",
+    "image": "https://vis-society.github.io/labs/2/images/empty.svg",
+    "description": "To support NASA’s low-cost Mars mission program, I developed a Python-based simulation tool to model and optimize Mars lander subsystem parameters such as drag coefficient and nose cone angle. I also built a user-friendly GUI for early mission design use. Validated against past JPL lander data, the tool accurately reproduced expected landing outcomes in all test cases."
+  }
+]

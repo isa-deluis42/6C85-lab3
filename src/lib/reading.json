@@ -1,0 +1,16 @@
+[
+    {
+        "title": "Beloved",
+        "author": "Toni Morrison",
+        "image": "images/beloved.jpg",
+        "description": "Beloved is a 1987 novel by American novelist Toni Morrison. Set in the period after the American Civil War, the novel tells the story of a dysfunctional family of formerly enslaved people whose Cincinnati home is haunted by a malevolent spirit."
+
+  },
+    {
+        "title": "A Thousand Ships",
+        "author": "Natalie Haynes",
+        "image": "images/athousandships.jpg",
+        "description": "A Thousand Ships by Natalie Haynes is a 2019 novel that retells the Trojan War from the perspectives of the women involved, shifting focus from the male heroes to the goddesses, Trojan women, and Greek women who experienced the conflict and its aftermath. The book features numerous female narrators, including Cassandra, Clytemnestra, Penelope, and the goddesses, exploring themes of war, loss, and survival through their eyes. It's a feminist retelling that gives voice to those often sidelined in traditional accounts, like the captive Trojan women and the wives left behind."
+    }
+
+]
