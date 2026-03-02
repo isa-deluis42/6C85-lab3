@@ -8,11 +8,7 @@
 </article>
 
 <style>
-  .reading {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
-        gap: 1em;
-  }
+ 
 
   article {
         display: grid;
