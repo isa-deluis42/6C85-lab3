@@ -33,17 +33,15 @@
 </label>
 <nav class = "menu">
     <ul>
-        <!-- <li> <a href = "." class = "current">Home</a></li>
-        <li> <a href = "projects">Projects</a></li>
-        <li> <a href = "contact">Contact</a></li>
-        <li> <a href = "resume"> CV </a></li>
-        <li> <a href = "https://github.com/isa-deluis42" target="_blank">Github</a></li> -->
         {#each pages as p}
-            <li> <a href = {p.url.startsWith("http") ? p.url : base + p.url}
-            class:current={p.url === "/" // is this link the home page?
-            ? $page.url.pathname === (base + "/") // if yes - set current = true if the path name matches. Else, set current = true if the path name starts correctly
-            : $page.url.pathname.startsWith(base + p.url)}
-            target={p.url.startsWith("http") ? "_blank" : null}>{p.title}</a></li>
+            <li> 
+                <a href = {p.url.startsWith("http") ? p.url : base + p.url}
+                    class:current={p.url === "/" // is this link the home page?
+                        ? $page.url.pathname === (base + "/") // if yes - set current = true if the path name matches. Else, set current = true if the path name starts correctly
+                        : $page.url.pathname.startsWith(base + p.url)}
+                    target={p.url.startsWith("http") ? "_blank" : null} >
+                    {p.title}</a>
+        </li>
         {/each}
 
     </ul>
@@ -51,11 +49,12 @@
 </nav>
 <style>
     :root {
-    --color-accent: oklch(65% 50% 0);
-    color-scheme: dark;
+        --color-accent: oklch(65% 50% 0);
+        color-scheme: dark;
+        --border-color: oklch(50% 10% 200 / 40%);
     }
     nav {
-        --border-color: oklch(50% 10% 200 / 40%)
+        --border-color: oklch(50% 10% 200 / 40%);
         margin-bottom: 0.15em;
         border-bottom-width: .1em;
         border-bottom-style: solid;
@@ -84,7 +83,7 @@
         border-bottom-width: 0.4em;
         border-bottom-style: solid;
         margin-bottom: -1.25em;
-        border-bottom: 2px solid var(--border-color); 
+        border-bottom-color: oklch(80% 3% 200);
     }
 
     a:hover {
