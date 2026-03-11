@@ -64,7 +64,7 @@
             </dl>
         </section>
     {/if}
-<h1>Latest Projects</h1>
+<h1>Some Projects</h1>
 
 <div class="projects">
     {#each projects.slice(0, 3) as p}

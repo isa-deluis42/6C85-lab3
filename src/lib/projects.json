@@ -2,14 +2,14 @@
   {
     "title": "Neural Fly",
     "year": "2022",
-    "image": "images/neural-fly.jpeg",
+    "image": "/images/neural-fly.jpeg",
     "description": "",
     "story": "My research journey started in the summer of 2022 at Caltech. As a SURF fellow, I conducted research with Dr. Soon-Jo Chung's Autonomous Robotics and Controls Lab on their Neural Fly Project. During my time at Caltech, I developed a 'bridge' between Neural Fly's simulator code, which was developed in Python, and the Neural Fly hardware, in C++. I concluded my research with field tests, where we confirmed that my code worked in real life, not just in simulator."
   },
   {
     "title": "Lion Air 610 CAST Analysis",
     "year": "2023",
-    "image": "images/boeing.jpg",
+    "image": "/images/boeing.jpg",
     "description": "",
     "story": "In 2023, I worked with Prof. Nancy Leveson's System Safety and Cybersecurity Group to conduct a Causal Analysis based on Systems Theory (CAST) on the Lion Air 737-8 MAX accident. This project was very important to me because the Boeing 737-8 MAX crashes were the reason I became interested in engineering and system safety in the first place. During my summer, I found 11 contributions to the crash, from improper regulations to faulty equipment and prepared a paper that discussed how human factors investigations in aviation accidents often have narrow views of human error and focus on assigning blame for accidents instead of viewing human error in the context which it occurred."
   },
@@ -23,14 +23,14 @@
   {
     "title": "Simulating Low-Cost Landers on Mars",
     "year": "2024",
-    "image": "images/jpl.jpeg",
+    "image": "/images/jpl.jpeg",
     "description": "To support NASA’s low-cost Mars mission program, I developed a Python-based simulation tool to model and optimize Mars lander subsystem parameters such as drag coefficient and nose cone angle. I also built a user-friendly GUI for early mission design use. Validated against past JPL lander data, the tool accurately reproduced expected landing outcomes in all test cases.",
     "story": "My third (and final) internship, was done at NASA's Jet Propulsion Lab, aiding their low-cost Mars mission program. Over ten weeks, I developed a Python-based simulation tool to model and optimize Mars lander subsystem parameters such as drag coefficient and nose cone angle. I also built a user-friendly GUI for early mission design use. Validated against past JPL lander data, the tool accurately reproduced expected landing outcomes in all test cases.  "
   },
   {
     "title": "Aircraft Accident Predictor",
     "year": "2024",
-    "image": "images/gachi.JPG",
+    "image": "/images/gachi.JPG",
     "description": "I built a Multi-Layer Perceptron (MLP) model to predict the primary cause of aviation accidents, aiming to give investigators an initial analytical starting point. Using NTSB accident data, I cleaned, encoded, and balanced the dataset with class weighting and SMOTE. The model reached about 50% accuracy with stable training and test performance, demonstrating both the potential and challenges of applying machine learning to real-world aviation data.",
     "story": " Building on my interest in aircraft accidents, I built a Multi-Layer Perceptron model to predict the primary cause of aviation accidents, aiming to give investigators an initial analytical starting point. Using NTSB accident data, I cleaned, encoded, and balanced the dataset with class weighting and SMOTE. The model reached about 50% accuracy with stable training and test performance, demonstrating both the potential and challenges of applying machine learning to real-world aviation data."
   },
@@ -38,27 +38,27 @@
   {
     "title": "Air Quality Analysis in Galena Park",
     "year": "2024",
-    "image": "images/gp.jpeg",
+    "image": "/images/gp.jpeg",
     "description": "Galena Park, a community near the Port of Houston, faces poor air quality from surrounding industrial activity. The Environmental Community Advocates of Galena Park (ECAGP) partnered with Air Partners, a team of Olin College students, to analyze data from their air quality sensor network. I developed a data-cleaning pipeline and analyzed over six months of sensor data, finding that PM2.5 concentrations consistently ranged between 12–29 µg/m³, well above the EPA’s 9 µg/m³ exposure limit, and peaked during daytime industrial operations.",
     "story": "For the second part of my engineering capstone, I worked with Air Partners analyzing air quality data in Galena Park, a community near the Port of Houston that faces poor air quality from surrounding industrial activity. The Environmental Community Advocates of Galena Park (ECAGP) partnered with us to analyze data from their air quality sensor network. I developed a data-cleaning pipeline and analyzed over six months of sensor data, finding that PM2.5 concentrations consistently ranged between 12–29 µg/m³, well above the EPA’s 9 µg/m³ exposure limit, and peaked during daytime industrial operations."
   },
   {
     "title": "R-Based NMF Pipeline for Air Quality Data",
     "year": "2025",
-    "image": "images/gp2.jpeg",
+    "image": "/images/gp2.jpeg",
     "description": "I developed a pipeline document in R Studio to perform Non-Negative Matrix Factorization (NMF) on cleaned air quality data from Air Partner’s air quality sensors around Boston. The pipeline included documentation on how the NMF analysis was performed and included the ability to automatically create spatial maps of pollutants around the sensor based on the results of the NMF analysis.",
     "story": "Building on my work from the prior semester, I continued to work with Air Partners on air quality analysis. For this project, I developed a pipeline document in R Studio to perform Non-Negative Matrix Factorization (NMF) on cleaned air quality data from Air Partner’s air quality sensors around Boston. The pipeline included documentation on how the NMF analysis was performed and included the ability to automatically create spatial maps of pollutants around the sensor based on the results of the NMF analysis."
   },
   {
       "title": "Measuring IROC Effectiveness",
       "year": "2026",
-      "image": "images/iroc.jpg",
+      "image": "/images/iroc.jpg",
       "story": "In progress, advised by Prof. Julie Shah and Dr. Ben Armstrong."
   },
   {
     "title": "OASIS",
     "year": "2026",
-    "image": "images/oasis.jpeg",
+    "image": "/images/oasis.jpeg",
     "story": "In progress, advised by Prof. Julie Shah, Dr. Ben Armstrong, and Dr. Inti Keith."
   }
 ]

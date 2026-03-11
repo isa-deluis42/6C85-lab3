@@ -15,17 +15,19 @@
 <Scrolly bind:progress={ scrollyProgress }>
 	<!-- Story here -->
 	 <div class="scrolly-wrapper">
-		<section class="step">
 			
 				{#each sorted_projects as p}
-				<h3>{p.title}</h3>
-				<div class="step-content">
-					
+				<section class="step">
+					<h3>{p.title}</h3>
+					<div class="step-content">
 					<p>{p.story}</p>
-				</div>
+					</div>
+				</section>
 					
-				{/each}
-	 	</section>
+				{/each}	
+
+						
+	 	
 	 </div>
 	 
 	<svelte:fragment slot="viz">
@@ -42,24 +44,23 @@
 
 <style>
 	.scrolly-wrapper {
-		width: min(1000ch, 60vw);
+		/* width: min(800ch, 30vw); */
 		position: relative;
 		left: 50%;
 		transform: translateX(-50%);
 }
 	.step {
+		/* color: oklch(65% 50% 0); */
 		min-height: 80vh;
 		padding: 2rem;
 	}
 
 	.step-content{
-		padding: 1.5rem 2rem;
+		padding: 1.5em 2rem;
+		background-color: color-mix(in oklch, var(--color-accent), canvas 85%);
 	}
-	.project-detail{
-		padding: 2rem;
-		width: 100%;
+	h3 {
+		color: oklch(65% 50% 0);
 	}
-	img {
-		width: 100%;
-	}
+	
 </style>
