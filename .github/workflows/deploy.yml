@@ -19,6 +19,8 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+      - name: Install svelte scrolly
+        run: npm install svelte-scrolly
 
       - name: build
         env:
