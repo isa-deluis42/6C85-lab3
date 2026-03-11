@@ -2,6 +2,7 @@
     import projects from "$lib/projects.json";
     import Project from "$lib/Project.svelte";
     import ProjectNarrative from "$lib/ProjectNarrative.svelte";
+    
 
     let years = projects.map(proj => proj.year)
 
