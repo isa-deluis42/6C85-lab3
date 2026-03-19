@@ -1,5 +1,26 @@
 [
   {
+    "title": "R-Based NMF Pipeline for Air Quality Data",
+    "year": "2025",
+    "image": "/images/gp2.jpeg",
+    "description": "I developed a pipeline document in R Studio to perform Non-Negative Matrix Factorization (NMF) on cleaned air quality data from Air Partner’s air quality sensors around Boston. The pipeline included documentation on how the NMF analysis was performed and included the ability to automatically create spatial maps of pollutants around the sensor based on the results of the NMF analysis.",
+    "story": "Building on my work from the prior semester, I continued to work with Air Partners on air quality analysis. For this project, I developed a pipeline document in R Studio to perform Non-Negative Matrix Factorization (NMF) on cleaned air quality data from Air Partner’s air quality sensors around Boston. The pipeline included documentation on how the NMF analysis was performed and included the ability to automatically create spatial maps of pollutants around the sensor based on the results of the NMF analysis."
+  },
+   {
+    "title": "Aircraft Accident Predictor",
+    "year": "2024",
+    "image": "/images/gachi.JPG",
+    "description": "I built a Multi-Layer Perceptron (MLP) model to predict the primary cause of aviation accidents, aiming to give investigators an initial analytical starting point. Using NTSB accident data, I cleaned, encoded, and balanced the dataset with class weighting and SMOTE. The model reached about 50% accuracy with stable training and test performance, demonstrating both the potential and challenges of applying machine learning to real-world aviation data.",
+    "story": " Building on my interest in aircraft accidents, I built a Multi-Layer Perceptron model to predict the primary cause of aviation accidents, aiming to give investigators an initial analytical starting point. Using NTSB accident data, I cleaned, encoded, and balanced the dataset with class weighting and SMOTE. The model reached about 50% accuracy with stable training and test performance, demonstrating both the potential and challenges of applying machine learning to real-world aviation data."
+  },
+  {
+    "title": "Simulating Low-Cost Landers on Mars",
+    "year": "2024",
+    "image": "/images/jpl.jpeg",
+    "description": "To support NASA’s low-cost Mars mission program, I developed a Python-based simulation tool to model and optimize Mars lander subsystem parameters such as drag coefficient and nose cone angle. I also built a user-friendly GUI for early mission design use. Validated against past JPL lander data, the tool accurately reproduced expected landing outcomes in all test cases.",
+    "story": "My third (and final) internship, was done at NASA's Jet Propulsion Lab, aiding their low-cost Mars mission program. Over ten weeks, I developed a Python-based simulation tool to model and optimize Mars lander subsystem parameters such as drag coefficient and nose cone angle. I also built a user-friendly GUI for early mission design use. Validated against past JPL lander data, the tool accurately reproduced expected landing outcomes in all test cases.  "
+  },
+  {
     "title": "Neural Fly",
     "year": "2022",
     "image": "/images/neural-fly.jpeg",
@@ -20,20 +41,8 @@
     "description": "", 
     "story": "I did the first half of my engineering capstone with Olin College's Rights and Privacy group, mentored by Prof. Erdhart Graeff. In 2020, the Massachusetts Supreme Judicial Court made a landmark decision in the case Commonwealth v. Long making it easier for defendants to suppress evidence from traffic stops by proving they were racially motivated. It replaced the strict Lora standard, requiring only that the defendant show a reasonable inference of racial bias based on the totality of circumstances, shifting the burden to the Commonwealth to prove otherwise. With the Rights and Privvacy team, I helped develop a program that aids lawyers in filing for discovery for Long Motions by showing that a police officer has a history of unlawful traffic stops. We did this by looking at the demographics of a police officer's traffic stops and comparing it to the racial demographics of the town they are patroling in. "
   },
-  {
-    "title": "Simulating Low-Cost Landers on Mars",
-    "year": "2024",
-    "image": "/images/jpl.jpeg",
-    "description": "To support NASA’s low-cost Mars mission program, I developed a Python-based simulation tool to model and optimize Mars lander subsystem parameters such as drag coefficient and nose cone angle. I also built a user-friendly GUI for early mission design use. Validated against past JPL lander data, the tool accurately reproduced expected landing outcomes in all test cases.",
-    "story": "My third (and final) internship, was done at NASA's Jet Propulsion Lab, aiding their low-cost Mars mission program. Over ten weeks, I developed a Python-based simulation tool to model and optimize Mars lander subsystem parameters such as drag coefficient and nose cone angle. I also built a user-friendly GUI for early mission design use. Validated against past JPL lander data, the tool accurately reproduced expected landing outcomes in all test cases.  "
-  },
-  {
-    "title": "Aircraft Accident Predictor",
-    "year": "2024",
-    "image": "/images/gachi.JPG",
-    "description": "I built a Multi-Layer Perceptron (MLP) model to predict the primary cause of aviation accidents, aiming to give investigators an initial analytical starting point. Using NTSB accident data, I cleaned, encoded, and balanced the dataset with class weighting and SMOTE. The model reached about 50% accuracy with stable training and test performance, demonstrating both the potential and challenges of applying machine learning to real-world aviation data.",
-    "story": " Building on my interest in aircraft accidents, I built a Multi-Layer Perceptron model to predict the primary cause of aviation accidents, aiming to give investigators an initial analytical starting point. Using NTSB accident data, I cleaned, encoded, and balanced the dataset with class weighting and SMOTE. The model reached about 50% accuracy with stable training and test performance, demonstrating both the potential and challenges of applying machine learning to real-world aviation data."
-  },
+  
+ 
 
   {
     "title": "Air Quality Analysis in Galena Park",
@@ -41,13 +50,6 @@
     "image": "/images/gp.jpeg",
     "description": "Galena Park, a community near the Port of Houston, faces poor air quality from surrounding industrial activity. The Environmental Community Advocates of Galena Park (ECAGP) partnered with Air Partners, a team of Olin College students, to analyze data from their air quality sensor network. I developed a data-cleaning pipeline and analyzed over six months of sensor data, finding that PM2.5 concentrations consistently ranged between 12–29 µg/m³, well above the EPA’s 9 µg/m³ exposure limit, and peaked during daytime industrial operations.",
     "story": "For the second part of my engineering capstone, I worked with Air Partners analyzing air quality data in Galena Park, a community near the Port of Houston that faces poor air quality from surrounding industrial activity. The Environmental Community Advocates of Galena Park (ECAGP) partnered with us to analyze data from their air quality sensor network. I developed a data-cleaning pipeline and analyzed over six months of sensor data, finding that PM2.5 concentrations consistently ranged between 12–29 µg/m³, well above the EPA’s 9 µg/m³ exposure limit, and peaked during daytime industrial operations."
-  },
-  {
-    "title": "R-Based NMF Pipeline for Air Quality Data",
-    "year": "2025",
-    "image": "/images/gp2.jpeg",
-    "description": "I developed a pipeline document in R Studio to perform Non-Negative Matrix Factorization (NMF) on cleaned air quality data from Air Partner’s air quality sensors around Boston. The pipeline included documentation on how the NMF analysis was performed and included the ability to automatically create spatial maps of pollutants around the sensor based on the results of the NMF analysis.",
-    "story": "Building on my work from the prior semester, I continued to work with Air Partners on air quality analysis. For this project, I developed a pipeline document in R Studio to perform Non-Negative Matrix Factorization (NMF) on cleaned air quality data from Air Partner’s air quality sensors around Boston. The pipeline included documentation on how the NMF analysis was performed and included the ability to automatically create spatial maps of pollutants around the sensor based on the results of the NMF analysis."
   },
   {
       "title": "Measuring IROC Effectiveness",
